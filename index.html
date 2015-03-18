@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Postalypse by SoulDZIN</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Postalypse</h1>
+        <h2>This javascript library submits a form to multiple urls.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/SoulDZIN/postalypse/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/SoulDZIN/postalypse/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/SoulDZIN/postalypse" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="postalypse" class="anchor" href="#postalypse" aria-hidden="true"><span class="octicon octicon-link"></span></a>postalypse</h1>
+
+<p>This is a javascript library that enables form submission to multiple locations.</p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>You can go postal with a given form element or use 'closest' to find the form nearest the executing script.</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">form</span>&gt;
+   &lt;<span class="pl-ent">input</span> <span class="pl-e">name</span>=<span class="pl-s1"><span class="pl-pds">'</span>something<span class="pl-pds">'</span></span> <span class="pl-e">value</span>=<span class="pl-s1"><span class="pl-pds">'</span>unimportant<span class="pl-pds">'</span></span> /&gt;
+   &lt;<span class="pl-ent">span</span>&gt;...&lt;/<span class="pl-ent">span</span>&gt;
+&lt;/<span class="pl-ent">form</span>&gt;
+<span class="pl-s2">&lt;<span class="pl-ent">script</span>&gt; Postalypse.gopostal(<span class="pl-s1"><span class="pl-pds">'</span>closest<span class="pl-pds">'</span></span>, [<span class="pl-s1"><span class="pl-pds">'</span>/url/1<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>/url/2<span class="pl-pds">'</span></span>]); &lt;/<span class="pl-ent">script</span>&gt;</span></pre></div>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
